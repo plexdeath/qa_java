@@ -58,7 +58,7 @@ public class LionTests extends TestCase {
     }
 
     @Test
-    public void ExceptionTest() {
+    public void exceptionTest() {
         Throwable throwable = assertThrows(Exception.class, () -> {
             lion = new Lion("unsupported sex", feline);
         });
